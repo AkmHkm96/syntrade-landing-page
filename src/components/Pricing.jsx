@@ -15,7 +15,7 @@ const plans = [
       'You’re new to investing but want to do it right. Get started for free.',
     button: {
       label: 'Get started for free',
-      href: '/register',
+      href: 'https://app.syntrade.xyz/signup',
     },
     features: [
       'Commission-free trading',
@@ -33,7 +33,7 @@ const plans = [
       'You’ve been investing for a while. Invest more and grow your wealth faster.',
     button: {
       label: 'Subscribe',
-      href: '/register',
+      href: 'https://app.syntrade.xyz/signup',
     },
     features: [
       'Commission-free trading',
@@ -52,7 +52,7 @@ const plans = [
       'You’ve got a huge amount of assets but it’s not enough. To the moon.',
     button: {
       label: 'Subscribe',
-      href: '/register',
+      href: 'https://app.syntrade.xyz/signup',
     },
     features: [
       'Commission-free trading',
