@@ -5,53 +5,50 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'How do I know this platform is really helpful?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'The platform has every feature you can use in order to start trade. ',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'Does Syntrade provide users with tips on the platform?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'Syntrade provides limited tips, however, users can reach us out easily by contacting us or book a session with our experienced traders to teach more about online trading.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
-      answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+      question: 'Is Syntrade free to use?',
+      answer: 'Yes it is, no charges applied for users.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: 'Is there any age limit for users to register with Syntrade?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        'Syntrade hasn’t set any age limit to register with us since knowledge is for everyone.',
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: 'How do I get my account if I forgot my password?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'You can simply click on the “Forgot Password” in the sign-in page and follow the steps stated. Alternatively, contact us through our email & we will help you get your account back.',
     },
     {
-      question: 'How do I become an insider?',
+      question: 'Do you have any social media accounts?',
+      answer: 'Yes we do. Follow us on our Instagram, Facebook, and Twitter.',
+    },
+  ],
+  [
+    {
+      question: 'Is Syntrade available 24/7?',
+      answer: 'Yes we are. You can literally trade anywhere and anytime.',
+    },
+    {
+      question: 'Do we get real money for trade if we profit?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Since this is only for learning plurposes, users will not get real money as we only provide fake money for users to invest in their account.',
+    },
+    {
+      question: 'Can I delete my account if I will no longer use Syntrade?',
+      answer:
+        'We are deeply sad if you leave us so soon, however, users are able to delete their account at any time in the users profile page.',
     },
   ],
 ]
