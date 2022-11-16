@@ -5,8 +5,9 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { TextField } from '@/components/Fields'
 import { Logomark } from '@/components/Logo'
+import LogoIcon from '../images/logos/logo_w_name.svg'
 import { NavLinks } from '@/components/NavLinks'
-import qrCode from '@/images/qr-code.svg'
+import qrCode from '@/images/syntradeSignUpQR.svg'
 
 function QrCodeBorder(props) {
   return (
@@ -27,13 +28,9 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16">
           <div>
             <div className="flex items-center text-gray-900">
-              <Logomark className="h-10 w-10 flex-none fill-cyan-500" />
-              <div className="ml-4">
-                <p className="text-base font-semibold">Syntrade</p>
-                <p className="mt-1 text-sm">Invest at the perfect time.</p>
-              </div>
+              <img src={LogoIcon.src} href="" className="h-28 w-auto" />
             </div>
-            <nav className="mt-11 flex gap-8">
+            <nav className="mt-11 ml-7 flex gap-8">
               <NavLinks />
             </nav>
           </div>
@@ -44,13 +41,13 @@ export function Footer() {
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">
-                <Link href="#">
+                <Link href="https://app.syntrade.xyz/signup">
                   <span className="absolute inset-0 sm:rounded-2xl" />
-                  Download the app
+                  Sign up now
                 </Link>
               </p>
               <p className="mt-1 text-sm text-gray-700">
-                Scan the QR code to download the app from the App Store.
+                Scan the QR code to sign up and start trading now!
               </p>
             </div>
           </div>
@@ -70,8 +67,8 @@ export function Footer() {
               <span className="lg:hidden">Join newsletter</span>
             </Button>
           </form> */}
-          <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            &copy; Copyright {new Date().getFullYear()}. All rights reserved.
+          <p className="mx-auto mt-6 text-sm text-gray-500 md:mt-0">
+            &copy; Syntrade {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
       </Container>
