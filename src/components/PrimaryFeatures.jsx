@@ -37,7 +37,7 @@ const features = [
     screen: InviteScreen,
   },
   {
-    name: 'Notifications on stock dips',
+    name: 'Volatility indices',
     description: (
       <dl>
         <dt>Multipliers</dt>
