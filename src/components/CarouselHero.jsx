@@ -21,7 +21,7 @@ export function CarouselHero() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="mySwiper w-full rounded-full bg-transparent
+        className="mySwiper w-full rounded-lg bg-transparent
         "
       >
         <SwiperSlide>

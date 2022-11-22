@@ -4,12 +4,6 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Multipliers',
-    description:
-      'Combines the upside leverage with limited risk of options that will help to increase potentioal profits.',
-    icon: DeviceArrowIcon,
-  },
-  {
     name: 'Rise/Fall',
     description:
       'It’s about prediction of the exit spot will be higher or lower than the entry spot.',
@@ -114,16 +108,17 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">
+          <h2 className="text-3xl font-semibold tracking-tight text-gray-900">
             Trade types we offer
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
-            betting on underlining synthetic asset, direction of future price
+          <p className="mt-2 text-lg text-gray-900">
+            Our trade types offer different ways of earning fixed payouts from
+            correctly predicting market movements using only a fixed stake.
           </p>
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-2"
+          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
         >
           {features.map((feature) => (
             <li
