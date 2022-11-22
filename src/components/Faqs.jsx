@@ -7,16 +7,16 @@ const faqs = [
     {
       question: 'How do I know this platform is really helpful?',
       answer:
-        'The platform has every feature you can use in order to start trade. ',
+        'The platform has various features necessarily for you to begin trading with synthetic indices.',
     },
     {
-      question: 'Does Syntrade provide users with tips on the platform?',
+      question: 'Is Syntrade easy to use for beginners getting into trading?',
       answer:
-        'Syntrade provides limited tips, however, users can reach us out easily by contacting us or book a session with our experienced traders to teach more about online trading.',
+        'Defintely! Syntrade provides great user experince for traders for all levels of experstise.',
     },
     {
       question: 'Is Syntrade free to use?',
-      answer: 'Yes it is, no charges applied for users.',
+      answer: 'Yes, it is! Users can start trading right away.',
     },
   ],
   [
@@ -28,27 +28,27 @@ const faqs = [
     {
       question: 'How do I get my account if I forgot my password?',
       answer:
-        'You can simply click on the “Forgot Password” in the sign-in page and follow the steps stated. Alternatively, contact us through our email & we will help you get your account back.',
+        'You can simply click on the “Forgot Password” in the sign-in page and follow the steps stated.',
     },
     {
       question: 'Do you have any social media accounts?',
-      answer: 'Yes we do. Follow us on our Instagram, Facebook, and Twitter.',
+      answer: 'Currently we do not posses any social media accounts.',
     },
   ],
   [
     {
       question: 'Is Syntrade available 24/7?',
-      answer: 'Yes we are. You can literally trade anywhere and anytime.',
+      answer: 'Yes, we are! You can literally trade anywhere and anytime.',
     },
     {
       question: 'Do we get real money for trade if we profit?',
       answer:
-        'Since this is only for learning plurposes, users will not get real money as we only provide fake money for users to invest in their account.',
+        'Since this is only for learning purposes, users will not be able to generate any real money from their accounts including exchanging their mock money.',
     },
     {
-      question: 'Can I delete my account if I will no longer use Syntrade?',
+      question: 'Can I delete my account if I no longer want to use Syntrade?',
       answer:
-        'We are deeply sad if you leave us so soon, however, users are able to delete their account at any time in the users profile page.',
+        'We are deeply sad if want you to leave us so soon. However, users are able to delete their account at any time in the users profile page.',
     },
   ],
 ]
@@ -68,16 +68,6 @@ export function Faqs() {
           >
             Frequently asked questions
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
-            If you have anything else you want to ask,{' '}
-            <Link
-              href="mailto:info@example.com"
-              className="text-gray-900 underline"
-            >
-              reach out to us
-            </Link>
-            .
-          </p>
         </div>
         <ul
           role="list"
