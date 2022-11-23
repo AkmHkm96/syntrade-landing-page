@@ -12,6 +12,8 @@ import logoGraphql from '@/images/logos/graphql.svg'
 import logoNextjs from '@/images/logos/nextJS.svg'
 import logoPostgres from '@/images/logos/postgres.svg'
 import logoTailwind from '@/images/logos/tailwind.svg'
+import logoCloudflare from '@/images/logos/cloudflare.svg'
+import logoTradingview from '@/images/logos/tradingview.svg'
 import { CarouselHero } from './CarouselHero'
 
 export function Hero() {
@@ -38,7 +40,7 @@ export function Hero() {
               <CarouselHero />
             </div>
           </div>
-          <div className="relative -mt-4 lg:col-span-5 lg:mt-0 xl:col-span-5">
+          <div className="relative -mt-4 lg:col-span-8 lg:mt-0 xl:col-span-8">
             <p className="text-center text-sm font-semibold text-gray-900 lg:text-left">
               Produced with
             </p>
@@ -55,6 +57,8 @@ export function Hero() {
                 ['NextJS', logoNextjs, 'hidden xl:block'],
                 ['Postgres', logoPostgres],
                 ['Tailwind', logoTailwind],
+                ['Cloudflare', logoCloudflare],
+                ['TradingView', logoTradingview],
               ].map(([name, logo, className]) => (
                 <li key={name} className={clsx('flex', className)}>
                   <Image
