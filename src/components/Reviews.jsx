@@ -265,7 +265,8 @@ export function Reviews() {
           Everyone is learning with Syntrade.
         </h2>
         <p className="mt-2 text-lg text-gray-900 sm:text-center">
-          Thousands of people have learned more on trading in the last 30 days.
+          Thousands of people have learned more about online trading in the last
+          30 days.
         </p>
         <ReviewGrid />
       </Container>

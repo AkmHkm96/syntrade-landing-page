@@ -27,21 +27,21 @@ export function CarouselHero() {
         <SwiperSlide>
           <img
             className="h-96 w-full object-fill"
-            src="https://cdn.pixabay.com/photo/2022/03/20/15/40/nature-7081138__340.jpg"
+            src="https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="image slide 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className="h-96 w-full object-fill"
-            src="https://cdn.pixabay.com/photo/2022/07/24/17/55/wind-energy-7342177__340.jpg"
+            src="https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="image slide 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className="h-96 w-full object-fill"
-            src="https://cdn.pixabay.com/photo/2022/07/26/03/35/jogger-7344979__340.jpg"
+            src="https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="image slide 3"
           />
         </SwiperSlide>

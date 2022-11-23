@@ -31,7 +31,7 @@ function RiseFallIcon() {
 }
 
 function EvenOddIcon(props) {
-  return <img src={EvenOdd.src} alt="Even/Odd Icon" className="h-11 w-11" />
+  return <img src={EvenOdd.src} alt="Even/Odd Icon" className="h-10 w-10" />
 }
 
 function MatchesDiffersIcon(props) {
