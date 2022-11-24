@@ -244,8 +244,8 @@ function ReviewGrid() {
           />
         </>
       )}
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#A6A6E0]" />
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#A6A6E0]" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900" />
     </div>
   )
 }
@@ -255,16 +255,16 @@ export function Reviews() {
     <section
       id="reviews"
       aria-labelledby="reviews-title"
-      className="bg-[#A6A6E0] pt-20 pb-16 sm:pt-32 sm:pb-24"
+      className="bg-gray-900 pt-20 pb-16 sm:pt-32 sm:pb-24"
     >
       <Container>
         <h2
           id="reviews-title"
-          className="text-3xl font-semibold tracking-tight text-black sm:text-center"
+          className="text-3xl font-semibold tracking-tight text-[#613DC1] sm:text-center"
         >
           Everyone is learning with Syntrade.
         </h2>
-        <p className="mt-2 text-lg text-gray-900 sm:text-center">
+        <p className="mt-2 text-lg text-gray-200 sm:text-center">
           Thousands of people have learned more about online trading in the last
           30 days.
         </p>

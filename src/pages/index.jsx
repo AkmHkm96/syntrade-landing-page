@@ -8,6 +8,7 @@ import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { BackToTop } from '@/components/BackToTopButton'
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <Faqs />
       </main>
       <Footer />
+      <BackToTop />
     </>
   )
 }
