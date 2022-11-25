@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { TextField } from '@/components/Fields'
-import { Logomark } from '@/components/Logo'
-import LogoIcon from '@/images/logos/new_logo_name.svg'
+import LogoIcon from '@/images/logos/alt_logo_name.svg'
 import { NavLinks } from '@/components/NavLinks'
 import qrCode from '@/images/syntradeSignUpQR.svg'
 
@@ -28,9 +25,9 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16">
           <div>
             <div className="flex items-center text-gray-900">
-              <img src={LogoIcon.src} href="" className="h-24 w-auto" />
+              <img src={LogoIcon.src} href="" className="mx-auto h-20 w-auto" />
             </div>
-            <nav className="mt-11 ml-5 flex gap-8">
+            <nav className="mx-auto mt-11 flex gap-8">
               <NavLinks />
             </nav>
           </div>

@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import LogoIcon from '@/images/logos/new_logo_name.svg'
+import LogoIcon from '@/images/logos/alt_logo_name.svg'
 import { NavLinks } from '@/components/NavLinks'
 
 function MenuIcon(props) {
@@ -51,7 +51,7 @@ export function Header() {
       <nav>
         <Container className="relative z-50 flex justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
-            <img src={LogoIcon.src} href="" className="h-11 w-auto" />
+            <img src={LogoIcon.src} href="" className="h-10 w-auto" />
 
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
@@ -97,25 +97,21 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#secondary-features">
-                              Features
+                            <MobileNavLink href="#products">
+                              Products
+                            </MobileNavLink>
+                            <MobileNavLink href="#trade-types">
+                              Trade
                             </MobileNavLink>
                             <MobileNavLink href="#reviews">
                               Reviews
                             </MobileNavLink>
-                            {/* <MobileNavLink href="#pricing">
-                              Pricing
-                            </MobileNavLink> */}
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button
-                              href="https://app.syntrade.xyz/login"
-                              // variant="outline"
-                            >
+                            <Button href="https://app.syntrade.xyz/login">
                               Trade now
                             </Button>
-                            {/* <Button href="#">Download the app</Button> */}
                           </div>
                         </Popover.Panel>
                       </>
@@ -126,14 +122,10 @@ export function Header() {
             </Popover>
             <Button
               href="https://app.syntrade.xyz/login"
-              // variant="outline"
               className="hidden lg:block"
             >
               Trade now
             </Button>
-            {/* <Button href="#" className="hidden lg:block">
-              Download
-            </Button> */}
           </div>
         </Container>
       </nav>

@@ -1,33 +1,30 @@
 import Head from 'next/head'
 
-import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+import { Products } from '@/components/Products'
 import { Reviews } from '@/components/Reviews'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { TradeTypes } from '@/components/TradeTypes'
 import { BackToTop } from '@/components/BackToTopButton'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Syntrade - We only play with synthetics.</title>
+        <title>Syntrade - Synthetic Indices Trading Simulator</title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="It is never too late to learn and start trading. Syntrade provides traders, new or old,with a platform for them to practice online trading with synthetic indices."
         />
       </Head>
       <Header />
       <main>
         <Hero />
-        <PrimaryFeatures />
-        <SecondaryFeatures />
-        {/* <CallToAction /> */}
+        <Products />
+        <TradeTypes />
         <Reviews />
-        {/* <Pricing /> */}
         <Faqs />
       </main>
       <Footer />

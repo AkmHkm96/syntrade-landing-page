@@ -1,10 +1,10 @@
 import { CardProduct } from '@/components/CardProduct'
 import { Container } from './Container'
 
-export function PrimaryFeatures() {
+export function Products() {
   return (
     <section
-      id="features"
+      id="products"
       aria-label="Features for investing all your money"
       className="bg-gray-900 py-20 sm:py-32"
     >

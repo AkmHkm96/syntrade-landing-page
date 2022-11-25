@@ -1,8 +1,6 @@
-import { useId, useRef, useState } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoDocker from '@/images/logos/docker.svg'
 import logoExpress from '@/images/logos/express.svg'
@@ -33,9 +31,7 @@ export function Hero() {
               about online trading with Syntrade. Sign up for free now and start
               trading!
             </p>
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              {/* <AppStoreLink /> */}
-            </div>
+            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4"></div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-1 lg:mt-0 xl:col-span-6">
             <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_90%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-1 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">

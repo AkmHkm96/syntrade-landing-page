@@ -2,8 +2,8 @@ import React from 'react'
 
 export function CardProduct() {
   return (
-    <div className="mx-auto grid max-w-2xl grid-cols-1 justify-between gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-2">
-      <div className="flex flex-col rounded-lg bg-white shadow-sm shadow-gray-100 md:max-w-xl md:flex-row">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 justify-between gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:max-w-none md:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-2">
+      <div className="flex flex-col rounded-lg bg-white md:max-w-xl md:flex-row">
         <img
           className=" h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
           src="https://images.unsplash.com/photo-1530679361860-63f81c6e9268?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -20,7 +20,7 @@ export function CardProduct() {
         </div>
       </div>
 
-      <div className="flex flex-col rounded-lg bg-white shadow-sm shadow-gray-100 md:max-w-xl md:flex-row">
+      <div className="flex flex-col rounded-lg bg-white md:max-w-xl md:flex-row">
         <img
           className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
           src="https://images.unsplash.com/photo-1609790259520-cf7bce1bad5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"

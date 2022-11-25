@@ -1,5 +1,3 @@
-import { useId } from 'react'
-
 import { Container } from '@/components/Container'
 import RiseFall from '@/images/logos/rise_fall-type.svg?component'
 import EvenOdd from '@/images/logos/even_odd-type.svg?component'
@@ -44,10 +42,10 @@ function MatchesDiffersIcon(props) {
   )
 }
 
-export function SecondaryFeatures() {
+export function TradeTypes() {
   return (
     <section
-      id="secondary-features"
+      id="trade-types"
       aria-label="Features for building a portfolio"
       className="py-20 sm:py-32"
     >
