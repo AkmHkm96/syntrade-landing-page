@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import LogoIcon from '@/images/logos/alt_logo_name.svg'
+import LogoIcon from '@/images/logos/old_logo_name.svg'
 import { NavLinks } from '@/components/NavLinks'
 
 function MenuIcon(props) {
@@ -51,7 +51,7 @@ export function Header() {
       <nav>
         <Container className="relative z-50 flex justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
-            <img src={LogoIcon.src} href="" className="h-10 w-auto" />
+            <img src={LogoIcon.src} href="" className="h-12 w-auto" />
 
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
