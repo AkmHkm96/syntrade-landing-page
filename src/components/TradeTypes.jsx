@@ -28,11 +28,11 @@ function RiseFallIcon() {
   return <img src={RiseFall.src} alt="Rise/Fall Icon" className="h-11 w-11" />
 }
 
-function EvenOddIcon(props) {
+function EvenOddIcon() {
   return <img src={EvenOdd.src} alt="Even/Odd Icon" className="h-10 w-10" />
 }
 
-function MatchesDiffersIcon(props) {
+function MatchesDiffersIcon() {
   return (
     <img
       src={MatchesDiffers.src}
@@ -50,7 +50,10 @@ export function TradeTypes() {
       className="py-20 sm:py-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl sm:text-center">
+        <div
+          id="trade-types-container"
+          className="mx-auto max-w-2xl sm:text-center"
+        >
           <h2 className="text-3xl font-semibold tracking-tight text-gray-900">
             Trade types we offer
           </h2>
@@ -60,6 +63,7 @@ export function TradeTypes() {
           </p>
         </div>
         <ul
+          id="trade-types-list"
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
         >

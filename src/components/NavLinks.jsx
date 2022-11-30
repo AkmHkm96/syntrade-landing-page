@@ -32,7 +32,9 @@ export function NavLinks() {
           />
         )}
       </AnimatePresence>
-      <span className="relative z-10">{label}</span>
+      <span id="nav-labels" className="relative z-10">
+        {label}
+      </span>
     </Link>
   ))
 }

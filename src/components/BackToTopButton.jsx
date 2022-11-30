@@ -31,8 +31,9 @@ export function BackToTop() {
   }, [])
 
   return (
-    <div className="fixed bottom-2 right-2">
+    <div id="back2top-btn-main" className="fixed bottom-2 right-2">
       <button
+        id="back2top-btn"
         type="button"
         onClick={scrollToTop}
         className={classNames(

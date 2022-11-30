@@ -59,7 +59,7 @@ export function Faqs() {
       className="border-t border-gray-200 py-20 sm:py-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div id="faqs-main" className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faqs-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
@@ -68,6 +68,7 @@ export function Faqs() {
           </h2>
         </div>
         <ul
+          id="faqs-list"
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-3"
         >

@@ -9,7 +9,10 @@ export function Products() {
       className="bg-gray-900 py-20 sm:py-32"
     >
       <Container>
-        <div className="mx-auto mb-12 max-w-2xl sm:text-center">
+        <div
+          id="products-container"
+          className="mx-auto mb-12 max-w-2xl sm:text-center"
+        >
           <h2 className="text-3xl font-semibold tracking-tight text-[#613DC1]">
             Our products
           </h2>
@@ -19,7 +22,7 @@ export function Products() {
             market hours, global events, or market and liquidity risks.
           </p>
         </div>
-        <div className="mx-auto">
+        <div id="card-container" className="mx-auto">
           <CardProduct />
         </div>
       </Container>
