@@ -27,18 +27,17 @@ export function Hero() {
         >
           <div
             id="hero-title"
-            className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6"
+            className="relative z-10 mx-0 max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6"
           >
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
               Take <span className="font-bold text-[#613DC1]">1 tick</span> at a
               time.
             </h1>
             <p className="mt-6 text-justify text-lg text-gray-600">
-              Syntrade is an online synthetic indices trading simulator. Traders
-              are able to trade with synthetic indices ranging from what is
-              available in the market and to our very own. Anyone can learn
-              about online trading with Syntrade. Sign up for free now and start
-              trading!
+              Syntrade is an online synthetic indices trading simulator. <br />{' '}
+              Online trading has never been more exciting.
+              <br />
+              <br /> Sign up for free now and start trading!
             </p>
             <div
               id="title-gap"
