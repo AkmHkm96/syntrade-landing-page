@@ -38,7 +38,7 @@ export function BackToTop() {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0',
-          'inline-flex items-center rounded bg-gray-300 p-3 text-black shadow-sm transition-opacity hover:bg-gray-400 hover:text-white focus:outline-none '
+          'inline-flex items-center rounded bg-gray-200 p-3 text-black shadow-sm transition-opacity hover:bg-gray-400 hover:text-white focus:outline-none '
         )}
       >
         <svg
