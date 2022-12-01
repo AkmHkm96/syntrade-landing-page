@@ -30,8 +30,8 @@ export function Hero() {
             className="relative z-10 mx-0 max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6"
           >
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Take <span className="font-bold text-[#613DC1]">1 tick</span> at a
-              time.
+              Take <span className="font-bold text-indigo-600">1 tick</span> at
+              a time.
             </h1>
             <p className="mt-6 text-justify text-lg text-gray-600">
               Syntrade is an online synthetic indices trading simulator. <br />{' '}

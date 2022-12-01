@@ -265,11 +265,11 @@ export function Reviews() {
       <Container>
         <h2
           id="reviews-title"
-          className="text-3xl font-semibold tracking-tight text-indigo-600 sm:text-center"
+          className="text-center text-3xl font-semibold tracking-tight text-indigo-600"
         >
           Everyone is learning with Syntrade.
         </h2>
-        <p className="mt-2 text-lg text-gray-800 sm:text-center">
+        <p className="mt-2 text-center text-lg text-gray-800">
           Thousands of people have learned more about online trading in the last
           30 days.
         </p>

@@ -14,7 +14,7 @@ const variantStyles = {
     white:
       'bg-white text-cyan-900 hover:bg-white/90 active:bg-white/90 active:text-cyan-900/70',
     purple:
-      'bg-[#613DC1] text-white active:bg-gray-800 active:text-white/80 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-150 ...',
+      'bg-indigo-600 text-white active:bg-gray-800 active:text-white/80 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-150 ...',
   },
 }
 

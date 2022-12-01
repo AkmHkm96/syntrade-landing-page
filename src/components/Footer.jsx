@@ -30,12 +30,12 @@ export function Footer() {
       <Container>
         <div
           id="footer-container"
-          className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16"
+          className="flex flex-col items-center justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16"
         >
           <div id="footer-left-container">
             <div
               id="logo-container"
-              className="flex items-center text-gray-900"
+              className="flex w-full items-center text-gray-900"
             >
               <img
                 id="syntrade-logo"
@@ -44,7 +44,10 @@ export function Footer() {
                 className="mx-auto h-28 w-auto"
               />
             </div>
-            <nav id="footer-nav-menu" className="mx-auto mt-11 flex gap-8">
+            <nav
+              id="footer-nav-menu"
+              className="mt-11 flex items-center justify-center gap-8"
+            >
               <NavLinks />
             </nav>
           </div>

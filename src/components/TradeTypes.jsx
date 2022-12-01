@@ -54,10 +54,10 @@ export function TradeTypes() {
           id="trade-types-container"
           className="mx-auto max-w-2xl sm:text-center"
         >
-          <h2 className="text-3xl font-semibold tracking-tight text-gray-900">
+          <h2 className="text-center text-3xl font-semibold tracking-tight text-gray-900">
             Trade types we offer
           </h2>
-          <p className="mt-2 text-lg text-gray-900">
+          <p className="mt-2 text-center text-lg text-gray-900">
             Our trade types offer different ways of earning fixed payouts from
             correctly predicting market movements using only a fixed stake.
           </p>
