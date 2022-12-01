@@ -35,10 +35,11 @@ export function BackToTop() {
       <button
         id="back2top-btn"
         type="button"
+        aria-label="back2top-button"
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0',
-          'inline-flex items-center rounded bg-gray-200 p-3 text-black shadow-sm transition-opacity hover:bg-gray-400 hover:text-white focus:outline-none '
+          'inline-flex animate-bounce items-center rounded bg-gray-200 p-3 text-black shadow-sm transition-opacity hover:bg-gray-400 hover:text-white focus:outline-none'
         )}
       >
         <svg
