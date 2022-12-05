@@ -25,11 +25,11 @@ const features = [
 ]
 
 function RiseFallIcon() {
-  return <img src={RiseFall.src} alt="Rise/Fall Icon" className="h-11 w-11" />
+  return <img src={RiseFall.src} alt="Rise/Fall Icon" className="h-14 w-14" />
 }
 
 function EvenOddIcon() {
-  return <img src={EvenOdd.src} alt="Even/Odd Icon" className="h-10 w-10" />
+  return <img src={EvenOdd.src} alt="Even/Odd Icon" className="h-14 w-14" />
 }
 
 function MatchesDiffersIcon() {
@@ -37,7 +37,7 @@ function MatchesDiffersIcon() {
     <img
       src={MatchesDiffers.src}
       alt="Matches/Differs Icon"
-      className="h-11 w-11"
+      className="h-14 w-14"
     />
   )
 }
@@ -70,7 +70,7 @@ export function TradeTypes() {
           {features.map((feature) => (
             <li
               key={feature.name}
-              className="rounded-2xl border border-gray-200 p-8"
+              className="justify-center rounded-2xl border border-gray-200 p-8"
             >
               <feature.icon className="h-8 w-8" />
               <h3 className="mt-6 font-semibold text-gray-900">

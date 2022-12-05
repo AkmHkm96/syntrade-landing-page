@@ -107,16 +107,18 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div id="mobile-nav-menu" className="space-y-4">
-                            <MobileNavLink href="#products">
+                            <MobileNavLink href="#products" id="products-nav">
                               Products
                             </MobileNavLink>
-                            <MobileNavLink href="#trade-types">
+                            <MobileNavLink href="#trade-types" id="trade-nav">
                               Trade
                             </MobileNavLink>
-                            <MobileNavLink href="#reviews">
+                            <MobileNavLink href="#reviews" id="review-nav">
                               Reviews
                             </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
+                            <MobileNavLink href="#faqs" id="faq-nav">
+                              FAQs
+                            </MobileNavLink>
                           </div>
                           <div
                             id="mobile-login-btn"
@@ -136,6 +138,7 @@ export function Header() {
             <Button
               href="https://app.syntrade.xyz/login"
               className="hidden lg:block"
+              id="trade_now"
             >
               Trade now
             </Button>
