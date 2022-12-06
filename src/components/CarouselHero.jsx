@@ -3,7 +3,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import CarouselImage1 from '@/images/desktopVers.png'
 import CarouselImage2 from '@/images/mobileVers.png'
-import CarouselImage3 from '@/images/desktop_mobile.png'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -41,14 +40,6 @@ export function CarouselHero() {
             className="h-full w-full object-cover"
             src={CarouselImage2.src}
             alt="image slide 2"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            id="image-3"
-            className="h-full w-full object-cover"
-            src={CarouselImage3.src}
-            alt="image slide 3"
           />
         </SwiperSlide>
       </Swiper>
