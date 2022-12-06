@@ -1,6 +1,9 @@
 import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
+import CarouselImage1 from '@/images/desktopVers.png'
+import CarouselImage2 from '@/images/mobileVers.png'
+import CarouselImage3 from '@/images/desktop_mobile.png'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -24,27 +27,27 @@ export function CarouselHero() {
         className="mySwiper w-full rounded-lg bg-transparent
         "
       >
-        <SwiperSlide>
+        <SwiperSlide className="items-center justify-center">
           <img
             id="image-1"
-            className="h-96 w-full object-cover"
-            src="https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="h-full w-full object-cover"
+            src={CarouselImage1.src}
             alt="image slide 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             id="image-2"
-            className="h-96 w-full object-cover"
-            src="https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="h-full w-full object-cover"
+            src={CarouselImage2.src}
             alt="image slide 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             id="image-3"
-            className="h-96 w-full object-cover"
-            src="https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="h-full w-full object-cover"
+            src={CarouselImage3.src}
             alt="image slide 3"
           />
         </SwiperSlide>

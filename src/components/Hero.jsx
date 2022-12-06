@@ -50,7 +50,7 @@ export function Hero() {
           >
             <div
               id="carousel-container"
-              className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_90%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-1 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32"
+              className="-mx-4 h-[448px] px-9 sm:mx-0 lg:absolute lg:-inset-x-1 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32"
             >
               <CarouselHero />
             </div>

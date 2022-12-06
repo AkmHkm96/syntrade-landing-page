@@ -1,4 +1,6 @@
 import React from 'react'
+import CrashImage from '@/images/crash.jpg'
+import VolatilityImage from '@/images/volatility.jpg'
 
 export function CardProduct() {
   return (
@@ -13,7 +15,7 @@ export function CardProduct() {
         <img
           id="crash-image"
           className=" h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="https://images.unsplash.com/photo-1530679361860-63f81c6e9268?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          src={CrashImage.src}
           alt=""
         />
         <div id="crash-info" className="flex flex-col justify-center p-6">
@@ -34,7 +36,7 @@ export function CardProduct() {
         <img
           id="volatility-image"
           className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="https://images.unsplash.com/photo-1609790259520-cf7bce1bad5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+          src={VolatilityImage.src}
           alt=""
         />
         <div id="volatility-info" className="flex flex-col justify-center p-6">
