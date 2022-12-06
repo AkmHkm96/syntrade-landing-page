@@ -1,8 +1,9 @@
 import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
-import CarouselImage1 from '@/images/desktopVers.png'
-import CarouselImage2 from '@/images/mobileVers.png'
+import CarouselDesktop from '@/images/desktopVers.png'
+import CarouselMobile from '@/images/mobileVers.png'
+import CarouselTablet from '@/images/tabletVers.png'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -29,17 +30,25 @@ export function CarouselHero() {
         <SwiperSlide className="items-center justify-center">
           <img
             id="image-1"
-            className="h-full w-full object-cover"
-            src={CarouselImage1.src}
-            alt="image slide 1"
+            className="object-fit h-1/3 w-full"
+            src={CarouselDesktop.src}
+            alt="image carousel desktop"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             id="image-2"
-            className="h-full w-full object-cover"
-            src={CarouselImage2.src}
-            alt="image slide 2"
+            className="object-fit h-1/3 w-full"
+            src={CarouselMobile.src}
+            alt="image carousel mobile"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            id="image-3"
+            className="object-fit h-1/3 w-full"
+            src={CarouselTablet.src}
+            alt="image carousel tablet"
           />
         </SwiperSlide>
       </Swiper>
