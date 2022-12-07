@@ -1,16 +1,14 @@
 import React from 'react'
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import CarouselDesktop from '@/images/desktopVers.png'
 import CarouselMobile from '@/images/mobileVers.png'
 import CarouselTablet from '@/images/tabletVers.png'
 
-// Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-// import required modules
 import { Autoplay } from 'swiper'
 
 export function CarouselHero() {
